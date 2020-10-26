@@ -1,3 +1,5 @@
+Research project on lidar package for exoskleton RBE501
+
 This package contains the code for two ROS Nodes (https://www.ros.org/). These nodes are used to process lidar sensor data in an atempt to find and locate stairs. 
 
 The nodes are as follows:
@@ -7,5 +9,7 @@ The nodes are as follows:
 The nodes make some assumptions:
 1) There is a lidar publishing on the 'cloud' or 'mock_cloud' ros topic 
 2) The lidar produces a data array with 810 items (270 degrees * 3 measurements per degree) 
+
+
 
 
